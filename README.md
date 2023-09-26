@@ -15,10 +15,6 @@ This is an issue tracker application built using Node.js and EJS. It allows user
 - Node.js (version X.X.X)
 - npm (version X.X.X)
 
-## Installation
-# Clone the repository
-git clone https://github.com/r-Abhay-FSDe/issue-tracker.git
-
 # Navigate to the project directory
 cd issue-tracker
 
