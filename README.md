@@ -57,13 +57,11 @@ Issue Tracker Backend/
 
 This code follows MVC pattern and hence everything is differentiated and well managed:
 
-    Upload-CSV
+    Issue Tracker Backend
         |-----assets
-        |       |--- css
-        |       |     |-- file.css
-        |       |     |-- home.css
         |       |--- JS
-        |             |-- file.js
+        |       |     |-- filterIssues.js
+        |       |     |-- searchIssues.js
         |------ config
         |         └--- mongoose.js
         |------ controller
