@@ -10,6 +10,15 @@ This is an issue tracker application built using Node.js and EJS. It allows user
 - Filter issues by multiple labels, author, and search by title and description.
 - Create new issues for a project with a title, description, labels, and author.
 
+## Dependencies
+- config
+- dotenv
+- ejs
+- express
+- express-ejs-layouts
+- mongoose
+- nodemon
+
 ## Prerequisites
 
 - Node.js (version X.X.X)
