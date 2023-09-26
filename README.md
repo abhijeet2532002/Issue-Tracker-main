@@ -51,3 +51,36 @@ Issue Tracker Backend/
 |-- app.js
 |-- package.json
 |-- README.md
+
+
+## Directory Structure and flow of The Code
+
+This code follows MVC pattern and hence everything is differentiated and well managed:
+
+    Upload-CSV
+        |-----assets
+        |       |--- css
+        |       |     |-- file.css
+        |       |     |-- home.css
+        |       |--- JS
+        |             |-- file.js
+        |------ config
+        |         └--- mongoose.js
+        |------ controller
+        |         └--- fileController.js
+        |------ models
+        |         └--- fileModel.js
+        |------ routes
+        |         └--- index.js
+        |------ uploads
+        |         |--- files
+        |------ views
+        |         |--- file.ejs
+        |         |--- home.ejs
+        |------ .gitignore
+        |------ index.js
+        |------ package.json
+        |------ package-lock.json
+        └------ README.md
+
+<!-- CONTRIBUTING -->
