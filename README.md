@@ -32,3 +32,22 @@ npm install
 
 # Start the application
 nodemon index.js
+
+## File Structure
+Issue Tracker Backend/
+|-- node_modules/
+|-- public/
+|   |-- styles/
+|   |   |-- style.css
+|   |-- scripts/
+|   |   |-- script.js
+|-- views/
+|   |-- home.ejs
+|   |-- createProject.ejs
+|   |-- projectDetail.ejs
+|   |-- createIssue.ejs
+|-- .env
+|-- .gitignore
+|-- app.js
+|-- package.json
+|-- README.md
