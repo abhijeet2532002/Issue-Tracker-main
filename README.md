@@ -33,28 +33,7 @@ npm install
 # Start the application
 nodemon index.js
 
-## File Structure
-Issue Tracker Backend/
-|-- node_modules/
-|-- public/
-|   |-- styles/
-|   |   |-- style.css
-|   |-- scripts/
-|   |   |-- script.js
-|-- views/
-|   |-- home.ejs
-|   |-- createProject.ejs
-|   |-- projectDetail.ejs
-|   |-- createIssue.ejs
-|-- .env
-|-- .gitignore
-|-- app.js
-|-- package.json
-|-- README.md
-
-
 ## Directory Structure and flow of The Code
-
 This code follows MVC pattern and hence everything is differentiated and well managed:
 
     Issue Tracker Backend
@@ -65,16 +44,31 @@ This code follows MVC pattern and hence everything is differentiated and well ma
         |------ config
         |         └--- mongoose.js
         |------ controller
-        |         └--- fileController.js
+        |         |--- home_controller.js
+        |         |--- project_controller.js
+        |------ img
+        |         |--- img1.png
+        |         |--- img2.png
+        |         |--- img3.png
+        |         |--- img4.png
         |------ models
-        |         └--- fileModel.js
+        |         |--- issue.js
+        |         |--- project.js
         |------ routes
-        |         └--- index.js
-        |------ uploads
-        |         |--- files
+        |         |--- index.js
+        |         |--- project.js
         |------ views
-        |         |--- file.ejs
+        |         |--- partials
+        |         |     |--- _footer.ejs
+        |         |     |--- _header.ejs
+        |         |     |--- _issue_form.ejs
+        |         |     |--- _issues.ejs
+        |         |     |--- _project_form.ejs
+        |         |     |--- desktop.ini
+        |         |--- desktop.ini
         |         |--- home.ejs
+        |         |--- layout.ejs
+        |         |--- project_page.ejs
         |------ .gitignore
         |------ index.js
         |------ package.json
